@@ -6,50 +6,39 @@
     <title>My Todo App</title>
     <link rel="stylesheet" href="">
 </head>
-    <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
-    <link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
+<link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
 <body>
-    <div class="msg">
-        <span class="msg-content"></span>
-        <span class="anchor confirmed">知道了</span>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+<div class="container">
+    <h1>我的Todo</h1>
+
+    <form class="add-task">
+        <input name="content" type="text" autofocus="autofocus" autocomplete="off" placeholder="e.g. 下午记得买菜" />
+        <button  type="submit">submit</button>
+    </form>
+
+    <div class="task-list">
+        <!-- <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item-content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div> -->
     </div>
-    <div class="container">
-        <h1>我的Todo</h1>
 
-        <form class="add-task">
-            <input name="content" type="text" autofocus="autofocus" autocomplete="off" placeholder="e.g. 下午记得买菜" />
-            <button  type="submit">submit</button>
-        </form>
+    <div class="task-detail-mask"></div>
+    <div class="task-detail"></div>
 
-        <div class="task-list">
-            <!-- <div class="task-item">
-                <span><input type="checkbox"></span>
-                <span class="task-content">item-content 1</span>
-                <span>delete</span>
-                <span>detail</span>
-            </div> -->
-        </div>
-
-        <div class="task-detail-mask"></div>
-        <div class="task-detail">
-            <!-- <div class="content">下午记得买菜</div>
-            <div>
-                <div class="desc">
-                    <textarea></textarea>
-                </div>
-            </div>
-            <div class="remind">
-              <input type="date">
-              <button type="submit">submit</button>
-            </div> -->
-        </div>
-
-    </div>
-    <video class="alerter" src="alert.mp3"></video>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.js"></script>
-    <script src="node_modules/store/store.js"></script>
-    <script src="js/base.js"></script>
+</div>
+<video class="alerter" src="alert.mp3"></video>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.js"></script>
+<script src="node_modules/store/store.js"></script>
+<script src="js/base.js"></script>
 </body>
 </html>
