@@ -2,7 +2,7 @@
 * @Author: Pearl8
 * @Date:   2018-02-07 16:54:21
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-02-09 17:38:42
+* @Last Modified time: 2018-02-09 20:08:47
 */
 /*
 * @Author: Pearl8
@@ -13,7 +13,7 @@
 
 ;(function(){
     'use strict';
-    /*注意-和_的区别！！！*/
+    /*注意-和_*/
     var $form_add_task = $('.add-task')
         ,$task_delete_trigger
         ,$task_detail

@@ -2,7 +2,7 @@
 * @Author: Pearl8
 * @Date:   2018-02-07 17:24:36
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-02-09 17:07:47
+* @Last Modified time: 2018-02-09 20:09:08
 */
 *{
     // background-color:rgba(0,0,0,.1);
@@ -19,6 +19,9 @@
 body{
     background-color:#534b4b;
     color: #fff;
+}
+.fr{
+    float:right;
 }
 .fr{
     float:right;
