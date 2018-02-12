@@ -4,7 +4,7 @@
 
 👉[清单应用](https://chasen8.github.io/todoApp/?content=%E6%A1%88%E5%BA%95)
 
-下拉到本地后可以使用，GitHub Pages现在无法正常使用，可能和store.js作为数据储存方式有关，还未解决。
+👉这个项目需要引入的jquery.js、normalize.css、store.js等一开始都是直接npm安装到本地再引入到html文件中，本地正常。但是github pages打开后无法找到文件，所以将这些文件都复制到了css和js两个文件夹中再引入，暂时就先这样吧。
 
 ## 技术✏️
 
