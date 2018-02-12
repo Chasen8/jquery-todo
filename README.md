@@ -1,7 +1,7 @@
 ## 清单应用
-网页Todo小应用，jquery开发
-可以查看、添加、删除、Task，给Task设置时间提醒。
-[清单应用]：(https://chasen8.github.io/todoApp/?content=%E6%A1%88%E5%BA%95)
+网页Todo小应用，jquery开发<br>
+可以查看、添加、删除、Task，给Task设置时间提醒。<br>
+[清单应用](https://chasen8.github.io/todoApp/?content=%E6%A1%88%E5%BA%95)
 
 下拉到本地后可以使用，GitHub Pages现在无法正常使用，可能和store.js作为数据储存方式有关，还未解决。
 
