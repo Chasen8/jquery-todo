@@ -2,7 +2,7 @@
 * @Author: Pearl8
 * @Date:   2018-02-07 17:24:36
 * @Last Modified by:   Pearl8
-* @Last Modified time: 2018-02-12 17:53:45
+* @Last Modified time: 2018-02-12 18:09:35
 */
 
 ;(function () {
@@ -62,8 +62,8 @@
       '<div class="pop-title">' + conf.title + '</div>' +
       '<div class="pop-content">' +
       '<div>' +
-      '<button style="margin-right: 5px;" class="primary confirm">纭畾</button>' +
-      '<button class="cancel">鍙栨秷</button>' +
+      '<button style="margin-right: 5px;" class="primary confirm">是</button>' +
+      '<button class="cancel">否</button>' +
       '</div>' +
       '</div>' +
       '</div>')
@@ -301,7 +301,7 @@
       var $item = $this.parent().parent();
       var index = $item.data('index');
 
-      pop('纭畾鍒犻櫎?')
+      pop('是否删除？')
         .then(function (r) {
           r ? delete_task(index) : null;
         })
